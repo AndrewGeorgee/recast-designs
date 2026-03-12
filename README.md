@@ -68,4 +68,3 @@ lib/
 ## License
 
 Private project.
-# recast-designs

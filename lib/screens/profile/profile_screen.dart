@@ -54,7 +54,7 @@ class ProfileScreen extends StatelessWidget {
                             padding: EdgeInsets.all(Responsive.sp(4)),
                             child: Icon(
                               Icons.settings_outlined,
-                              color: AppColors.textSecondary.withOpacity(0.71),
+                              color: AppColors.textSecondary.withValues(alpha: 0.71),
                               size: Responsive.sp(20),
                             ),
                           ),
