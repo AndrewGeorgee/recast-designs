@@ -1,0 +1,39 @@
+name: recast_designs_task
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/icon_user_default.png
+    - assets/images/order_food_thumb_1.png
+    - assets/images/order_food_thumb_2.png
+    - assets/images/order_food_thumb_3.png
+    - assets/images/nobiko_venue_thumbnail.png
+    - assets/images/dovely_venue_thumbnail.png
+    - assets/images/olivestree_venue_thumbnail.png
+    - assets/images/nobiko_bistro_logo.png
+    - assets/images/profile_avatar_placeholder.png
+    - assets/images/ceano_venue_thumbnail.png
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/TTF/Satoshi-Variable.ttf
+        - asset: assets/TTF/Satoshi-VariableItalic.ttf
+          style: italic
