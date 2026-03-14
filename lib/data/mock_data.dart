@@ -58,7 +58,7 @@ final mockLoyaltyHistory = [
     date: DateTime(2025, 3, 2),
     spendAmountJD: 125.32,
     pointsEarned: 230,
-    runningPointsTotal: 325,
+    runningPointsTotal: 21750,
   ),
   LoyaltyEntry(
     id: 2,
@@ -67,7 +67,7 @@ final mockLoyaltyHistory = [
     date: DateTime(2025, 2, 14),
     spendAmountJD: 125.32,
     pointsEarned: 230,
-    runningPointsTotal: 325,
+    runningPointsTotal: 21520,
   ),
   LoyaltyEntry(
     id: 3,
@@ -76,7 +76,7 @@ final mockLoyaltyHistory = [
     date: DateTime(2025, 1, 28),
     spendAmountJD: 125.32,
     pointsEarned: 230,
-    runningPointsTotal: 325,
+    runningPointsTotal: 21290,
   ),
   LoyaltyEntry(
     id: 4,
@@ -85,6 +85,6 @@ final mockLoyaltyHistory = [
     date: DateTime(2025, 1, 9),
     spendAmountJD: 125.32,
     pointsEarned: 230,
-    runningPointsTotal: 325,
+    runningPointsTotal: 21060,
   ),
 ];
